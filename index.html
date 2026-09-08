@@ -8,7 +8,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:#fff5f8;color:#4b2434;font-family:Poppins,sans-serif;overflow-x:hidden}
+body{margin:0;background:#fff5f8;color:#4b2434;font-family:Poppins,sans-serif;overflow-x:hidden
+    img{
+    border radius: 10%;
+  }
+    }
 .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;position:relative;background:radial-gradient(circle at 20% 20%,#ffdce8,transparent 35%),radial-gradient(circle at 80% 80%,#ffe9b8,transparent 30%),linear-gradient(135deg,#fff1f6,#fffaf0)}
 .hero h1{font-family:'Dancing Script',cursive;font-size:clamp(58px,13vw,120px);margin:10px 0;color:#d6336c;line-height:.95}
 .hero h2{font-family:'Dancing Script',cursive;font-size:clamp(30px,6vw,54px);margin:8px}
@@ -37,9 +41,6 @@ footer h2{font-family:'Dancing Script',cursive;font-size:55px;color:#ffd6e3;marg
 @keyframes float{0%{transform:translateY(0) scale(.6);opacity:0}15%{opacity:1}100%{transform:translateY(-110vh) rotate(30deg) scale(1.4);opacity:0}}
 .hidden{display:none}
 @media(max-width:600px){section{padding:60px 15px}.card{padding:22px}.letter{font-size:15px;line-height:1.8}}
-  img{
-    border radius: 10%;
-  }
 </style>
 </head>
 <body>
